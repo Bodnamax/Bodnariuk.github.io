@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function clearTextarea() {
+            var textarea = document.getElementById("comment");
+    
+            textarea.value = "";
+          }
+          </script>
+    <img src="img\Deep-dive.png" width="200" height="200">
+    <h2>Deep Rock Galactic</h2>
+<hr/>
+<ul>
+    <li><a href="index.html">Головна сторінка</a></li>
+    <li><a href="content.html">Коротко про Deep Rock Galactic</a></li>
+    <li><a href="form.html">Подати заяву(Ви тут)</a></li>
+</ul>
+<hr/>
+    <h1>Подача заяви на трудовлаштування</h1>
+    <h3>Форма заявки</h3>
+
+    <p>Ваше ім'я</p>
+    <input type="text">
+
+    <p>Ваша пошта</p>
+    <input type="email" name="" id="">
+
+    <p>Який клас вибираєте?</p>
+    <input type="radio" name="1"> Розвідник <br>
+    <input type="radio" name="1"> Інженер <br>
+    <input type="radio" name="1"> Бурильник <br>
+    <input type="radio" name="1"> Стрілок <br>
+
+    <p>Коментар</p>
+    <textarea id="comment"></textarea> <br>
+
+    <input type="button" value="Надіслати">
+    <input type="button" value="Очистити"onclick="clearTextarea()">
+
+</body>
+</html>
